@@ -5,6 +5,28 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularProductList.WebAPI", "AngularProductList.WebAPI\AngularProductList.WebAPI.csproj", "{6B11F7F7-829D-43A8-8442-A748C72FCBAE}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AP.Client", "..\..\Users\TJadmin\Documents\Visual Studio 2015\WebSites\AP.Client\", "{C61E2144-1701-4941-89C4-43AEDBF6A6CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49413"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Users\TJadmin\Documents\Visual Studio 2015\WebSites\AP.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49413\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49413"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Users\TJadmin\Documents\Visual Studio 2015\WebSites\AP.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49413\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49413"
+		SlnRelativePath = "..\..\Users\TJadmin\Documents\Visual Studio 2015\WebSites\AP.Client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{6B11F7F7-829D-43A8-8442-A748C72FCBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B11F7F7-829D-43A8-8442-A748C72FCBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B11F7F7-829D-43A8-8442-A748C72FCBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61E2144-1701-4941-89C4-43AEDBF6A6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61E2144-1701-4941-89C4-43AEDBF6A6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61E2144-1701-4941-89C4-43AEDBF6A6CF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61E2144-1701-4941-89C4-43AEDBF6A6CF}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
